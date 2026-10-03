@@ -284,7 +284,7 @@ Organizations can investigate unexpected DHCP behavior by monitoring for:
 - Unexpected gateway or DNS-server advertisements
 - DHCP traffic originating from unauthorized switch ports
 
-Network controls such as DHCP snooping, appropriate switch configuration, segmentation, and monitoring can help reduce the impact of rogue DHCP servers.
+Network controls such as `DHCP snooping`, `appropriate switch configuration`, `segmentation`, and `monitoring` can help reduce the impact of rogue DHCP servers.
 
 ---
 
@@ -304,6 +304,4 @@ Useful resources for understanding the underlying protocols:
 
 This software is provided for educational and authorized security-testing purposes.
 
-Do not deploy it on networks without explicit authorization. Improper use can cause DHCP conflicts, loss of network connectivity, incorrect client configuration, or unintended traffic redirection.
-
-The author is not responsible for damage or disruption resulting from unauthorized use.
+Do not deploy it on networks without explicit authorization. Improper use can cause `DHCP conflicts`, `loss of network connectivity`, `incorrect client configuration`, or `unintended traffic redirection`.
