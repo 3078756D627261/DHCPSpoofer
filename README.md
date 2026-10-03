@@ -130,7 +130,7 @@ cd
 Then run:
 
 ```text
-sudo python3 dhcp_spoofer.py
+sudo python3 dhcp_spoofer.py --help
 ```
 
 The program accepts the following command-line options:
@@ -154,7 +154,6 @@ sudo python3 dhcp_spoofer.py --iface eth0 --gateway 192.168.50.1 --dns 192.168.5
 ## 🖥️ Example Output
 
 ```text
-A typical startup sequence looks similar to:
 
 ╭──────────────────────────────────────────╮
 │            DHCP Spoofer v1.0             │
