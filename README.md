@@ -123,8 +123,8 @@ For safer experimentation, use an isolated virtual network rather than a product
 Clone the repository and enter the project directory:
 
 ```text
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/3078756D627261/DHCPSpoofer/
+cd 
 ```
 
 Then run:
