@@ -130,7 +130,7 @@ cd DHCPSpoofer
 Then run:
 
 ```text
-sudo python3 dhcp_spoofer.py --help
+sudo python3 DHCPSpoofer.py --help
 ```
 
 The program accepts the following command-line options:
@@ -146,7 +146,7 @@ The program accepts the following command-line options:
 For example, in an isolated test network, you can configure the program with values appropriate to that lab:
 
 ```text
-sudo python3 dhcp_spoofer.py --iface eth0 --gateway 192.168.50.1 --dns 192.168.50.1 --range 192.168.50.0/24
+sudo python3 DHCPSpoofer.py --iface eth0 --gateway 192.168.50.1 --dns 192.168.50.1 --range 192.168.50.0/24
 ```
 
 ---
@@ -183,7 +183,7 @@ When DHCP traffic is observed:
 🧩 Project Structure
 ```text
 .
-├── dhcp_spoofer.py
+├── DHCPSpoofer.py
 └── README.md
 ```
 
